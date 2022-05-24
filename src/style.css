@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  main {
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  .form-container {
+      display: flex;
+      align-items: center;
+      justify-content:center ;
+        padding: 3rem;
+        border-radius: 8px;
+        flex-direction: column;
+  }
+form{
+    background-color: gray;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(card.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+
+  }
+
+  
+  .form-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-section2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .form-section2  input{
+        width: 30px;
+        height: 20px;
+    }
+
+    img {
+        width: 100px;
+        height: 50px;
+    }
+.form-section-button{
+    margin-top: 20px;
+    display: flex ;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-section-button button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(23, 225, 23);
+}
+body{
+    background-image: linear-gradient(90deg, rgb(228, 227, 240) 0%, rgba(248, 248, 248, 0.67) 0%), url(fondo.jpg);
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    
+}
+
