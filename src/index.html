@@ -1,14 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <div class="title"><h1>Suscribete ahora</h1></div>
+    <h2>Aprende a programar</h2>
+</div>
+    <div class="form-container">
+        <form action="">
+          <div class="form-section">
+            <label for="inombresapellidos">Nombres y Apellidos</label>
+      <input id="inombresapellidos" type="text" name="nombresapellidos">
+          </div>
+
+          <div class="form-section">
+            <label for="inumerotarjeta">Numero de la Tarjeta de credito</label>
+      <input id="inumerotarjeta" type="text" name="numerotarjeta" required> 
+          </div>
+
+          <div class="form-section2">
+              
+            <label for="ivencimiento">Vencimiento</label>
+      <input id="ivencimiento" type="text" name="vencimiento"> 
+      </p>
+      <p>
+       <label for="icvv">CVV</label>
+      <input id="icvv" type="text" name="vencimiento">
+          </div>
+          <div class="form-section-button"> 
+            <button type="submit" value="enviar">Enviar</button>
+       <button type="limpiar" value="limpiar">Limpiar</button> 
+         </div>
+        </form>
+    </div>
+  </main>
+<script type="module" src="index.js"> </script>
+</body>
 </html>
